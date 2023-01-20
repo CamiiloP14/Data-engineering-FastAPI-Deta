@@ -1,0 +1,1 @@
+{"id":"498b6501-620c-4ea8-b1a0-7dad90714706","space":48660,"runtime":"python3.9","name":"FastAPI_deta","path":"tvfldy","project":"e0c1qehj","account":"144798365827","region":"sa-east-1","deps":["fastapi","pandas"],"envs":null,"public":true,"log_level":"debug","cron":""}
