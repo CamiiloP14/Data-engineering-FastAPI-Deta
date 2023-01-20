@@ -52,7 +52,7 @@ Dentro del directorio creamos la carpeta FastAPI_deta en la cual deberemos tener
 <p align="center">
   <img width="200" height="172" src="Images/dependencias.jpg">
 </p>
-Finalmente para hacer el deployment en deta primero creamos una nueva cuenta en [Join Deta](https://web.deta.sh/), luego ingresamos a la terminal y navegamos hasta el directorio del proyecto y ejecutamos los siguientes comandos:
+Finalmente para hacer el deployment en deta primero creamos una nueva cuenta en ![Join Deta](https://web.deta.sh/), luego ingresamos a la terminal y navegamos hasta el directorio del proyecto y ejecutamos los siguientes comandos:
 
 * `iwr https://get.deta.dev/cli.ps1 -useb | iex` (instalar deta CLI para usar deta localmente)
 * `deta --help` (para verficar la correcta instalacion)
@@ -63,7 +63,7 @@ Finalmente para hacer el deployment en deta primero creamos una nueva cuenta en 
 
 Corriendo los comandos anteriores en su orden tenemos un deployment éxitoso.
 <p align="center">
-  <img width="500" height="250" src="Images/APIweb.png">
+  <img width="700" height="450" src="Images/APIweb.png">
 </p>
 
 ## Link deployment 
