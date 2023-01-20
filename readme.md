@@ -48,7 +48,7 @@ Después de tener los datos limpios, y observando el requerimiento del cliente n
     + Película que más duró según año, plataforma y tipo de duración
     + Cantidad de series y películas por rating
 * Deployment on Deta.
-Dentro del directorio creamos la carpeta FastAPI_deta en la cual deberemos tener el archivo 'main.py', 'requirements.txt' y el archivo csv.
+Dentro del directorio creamos la carpeta FastAPI_deta en la cual deberemos tener el archivo 'main.py', 'requirements.txt' y el archivo movies.csv.
 <p align="center">
   <img width="200" height="172" src="Images/dependencias.jpg">
 </p>
