@@ -40,19 +40,19 @@ Primero cargamos los datos usando la libreria pandas, y realizamos las siguiente
     + Los campos de texto deberán estar en minúsculas, sin excepciones
     + El campo duration debe convertirse en dos campos: duration_int y duration_type. El primero será un integer y el segundo un string indicando la unidad de medición de duración: min (minutos) o season (temporadas).
 Finalmente se concatenan los 4 dataframes para poder hacer las consultas sobre uno solo y se exporta en formato csv con el nombre 'movies.csv'
-* Desarrollo API\
+* Desarrollo API \
 Después de tener los datos limpios, y observando el requerimiento del cliente nos enfocamos en implementar el desarrollo del framework FastAPI, en la cual se requieren las siguientes consultas.
     + Cantidad de veces que aparece una keyword en el título de peliculas/series, por plataforma
     + Cantidad de películas por plataforma con un puntaje mayor a XX en determinado año
     + La segunda película con mayor score para una plataforma determinada, según el orden alfabético de los títulos
     + Película que más duró según año, plataforma y tipo de duración
     + Cantidad de series y películas por rating
-* Deployment on Deta.
+* Deployment on Deta \
 Dentro del directorio creamos la carpeta FastAPI_deta en la cual deberemos tener el archivo 'main.py', 'requirements.txt' y el archivo movies.csv.
 <p align="center">
   <img width="200" height="172" src="Images/dependencias.jpg">
 </p>
-Finalmente para hacer el deployment en deta primero creamos una nueva cuenta en ![Join Deta](https://web.deta.sh/), luego ingresamos a la terminal y navegamos hasta el directorio del proyecto y ejecutamos los siguientes comandos:
+Finalmente para hacer el deployment en deta primero creamos una nueva cuenta en [Join Deta](https://web.deta.sh/), luego ingresamos a la terminal y navegamos hasta el directorio del proyecto y ejecutamos los siguientes comandos:
 
 * `iwr https://get.deta.dev/cli.ps1 -useb | iex` (instalar deta CLI para usar deta localmente)
 * `deta --help` (para verficar la correcta instalacion)
