@@ -48,11 +48,11 @@ Después de tener los datos limpios, y observando el requerimiento del cliente n
     + Película que más duró según año, plataforma y tipo de duración
     + Cantidad de series y películas por rating
 * Deployment on Deta \
-Dentro del directorio creamos la carpeta FastAPI_deta en la cual deberemos tener el archivo 'main.py', 'requirements.txt' y el archivo movies.csv.
+Dentro del directorio creamos la carpeta FastAPI_deta en la cual deberemos tener el archivo 'main.py', 'requirements.txt' y el archivo 'movies.csv'.
 <p align="center">
   <img width="200" height="172" src="Images/dependencias.jpg">
 </p>
-Finalmente para hacer el deployment en deta primero creamos una nueva cuenta en [Join Deta](https://web.deta.sh/), luego ingresamos a la terminal y navegamos hasta el directorio del proyecto y ejecutamos los siguientes comandos:
+Finalmente para hacer el deployment en deta primero creamos una nueva cuenta en https://web.deta.sh/, luego ingresamos a la terminal y navegamos hasta el directorio del proyecto y ejecutamos los siguientes comandos:
 
 * `iwr https://get.deta.dev/cli.ps1 -useb | iex` (instalar deta CLI para usar deta localmente)
 * `deta --help` (para verficar la correcta instalacion)
