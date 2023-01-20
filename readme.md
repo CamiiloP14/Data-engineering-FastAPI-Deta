@@ -83,7 +83,7 @@ https://www.youtube.com/watch?v=LLAnmU8L0rU
 Puede encontrar toda la información inicial de este proyecto en: https://github.com/HX-FNegrete/PI01-Data-Engineering
 ## Conclusiones
 
-Este primer proyecto me gustó mucho ya que aparte del clasico ETL que se conoce en el área de data engineering, se hizo el desarrollo y ejecucion de una API en la web para así poder hacer consultas a los datos sin necesidad de escribir nada de código, lo cual es muy valioso para el área de data anlytics ya que se pueden enfocar a encontrar directamente a encontrar insights valiosos para la empresa.
+Este primer proyecto me gustó mucho ya que aparte del clasico ETL que se conoce en el área de data engineering, se hizo el desarrollo y ejecucion de una API en la web para así poder hacer consultas a los datos sin necesidad de escribir nada de código, lo cual es muy valioso para el área de data analytics ya que se pueden enfocar a encontrar directamente a encontrar insights valiosos para la empresa.
 
 Gracias por haber llegado hasta aquí 💛.
 
